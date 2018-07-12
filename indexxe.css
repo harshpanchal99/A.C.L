@@ -1,0 +1,335 @@
+
+@charset "ISO-8859-1";
+
+body
+{
+	margin :0px;
+	background-color: #581243;
+}
+.line
+{
+	
+	background-color: black;
+	height: 1px;
+	width: 100%;
+}
+.headg
+{
+	background-color:#581243;
+	height:70px;
+}
+header
+{
+	background-color:white;
+	
+	height:170px;
+}
+h1
+{	color:teal;
+	margin: 30px 193px 0px 129px;
+	float:left;
+}
+h2
+{
+	color:white;
+}
+ul
+{
+	display: block;
+	float:left;
+	margin-top:39px;
+	margin-bottom:10px;
+}
+li
+{
+	padding-top:1px;
+	margin:0px 10px 0px 5px;
+	display: block;
+	float:left;
+}
+.red
+{
+	text-decoration:none;
+	color:white;
+	background-color: #9f0000;
+	padding: 38px 10px 40px 10px;
+}
+.red:hover
+{
+	box-shadow: 2px 2px 3px 4px #9f0000;
+}
+.blue
+{
+	
+	text-decoration:none;
+	color:white;
+	background-color: #9b009b;
+	padding: 38px 10px 40px 10px;
+}
+.blue:hover
+{
+	box-shadow: 2px 2px 3px 4px #9b009b;
+}
+.green
+{
+	
+	text-decoration:none;
+	color:white;
+	background-color: #d08037;
+	padding: 38px 10px 40px 10px;
+}
+.green:hover
+{
+	box-shadow: 2px 2px 3px 4px #d08037;
+}
+.login
+{
+	
+	text-decoration:none;
+	color:white;
+	background-color: #008040;
+	padding: 38px 15px 40px 15px;
+}
+.login:hover
+{
+	box-shadow: 2px 2px 3px 4px #008040;
+}
+.register
+{
+	
+	text-decoration:none;
+	color:white;
+	background-color: #1072a7;
+	padding: 38px 15px 40px 15px;
+}
+.register:hover
+{
+	box-shadow: 2px 2px 3px 4px #1072a7;
+}
+
+.third
+{  
+	color: white;
+	overflow:auto;
+	vertical-align: middle;
+	text-align: center;
+	border:solid;
+	margin-bottom:37px;
+	border-color: white;
+	margin-top: 37px;
+	margin-left: 707px;
+    height: 450px;
+    width: 580px;
+}
+.inside
+{
+	font-size: 17px;	
+    padding-left: 29px;
+    width: 523px;
+    height: 450px;
+    overflow: auto;
+	vertical-align: middle;
+	text-align: justify;
+}
+.sliders
+{
+	border:solid;
+	border-color: white;
+	float:left;
+	width:640px;
+	height:450px;
+	margin-top: 37px;
+	margin-left: 30px;
+	background: url(imagee/aone.jpg);
+	animation: slide 20s infinite;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	
+	
+}
+
+@keyframes slide
+{
+
+	25%
+	{
+	background: url(imagee/atwo.jpg);
+	left:-100%;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	}
+	50%
+	{
+	background: url(imagee/athree.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	left:-100%;
+	}
+	75%
+	{
+	background: url(imagee/afour.jpg);
+	left:-100%;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	}
+	100%
+	{
+	background: url(imagee/afive.jpg);
+	left:-100%;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	}
+}
+@media (max-width:360px)
+{
+	body
+{
+	margin :0px;
+	background-color: ##581243;
+}
+.line
+{
+	float:left;
+	background-color: black;
+	height: 1px;
+	width: 360px;
+}
+.headg
+{
+	background-color:#581243;
+	height:70px;
+}
+header
+{
+	background-color:white;
+	
+	height:170px;
+}
+h1
+{	
+	font-size: medium;
+    color: teal;
+    margin:27px 0px 0px 83px;;
+    float: left;
+}
+ul
+{
+	 padding: 0px;
+    display: flex;
+    float: left;
+    margin-top: 29px;
+    margin-bottom: 10px;
+
+}
+li
+{
+
+	width: 100%;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    float: left;
+}
+.red
+{
+	text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #9f0000;
+    padding: 10px -45px 10px 151px;
+}
+.red:hover
+{
+	box-shadow: 2px 2px 3px 4px #9f0000;
+}
+.blue
+{
+	
+	text-decoration: none;
+    color: white;
+    background-color: #9b009b;
+    padding: 10px -63px 10px 153px;
+    text-align: center;
+}
+.blue:hover
+{
+	box-shadow: 2px 2px 3px 4px #9b009b;
+}
+.green
+{
+	
+	text-decoration: none;
+    color: white;
+    background-color: #d08037;
+    padding: 10px -45px 10px 151px;
+    text-align: center;
+}
+.green:hover
+{
+	box-shadow: 2px 2px 3px 4px #d08037;
+}
+.login
+{
+	
+	text-decoration: none;
+    color: white;
+    background-color: #008040;
+    padding: 10px -30px 10px 151px;
+    }
+.login:hover
+{
+	box-shadow: 2px 2px 3px 4px #008040;
+}
+.register
+{
+	
+	text-decoration: none;
+    color: white;
+    background-color: #1072a7;
+    padding: 10px -45px 10px 151px;
+}
+.register:hover
+{
+	box-shadow: 2px 2px 3px 4px #1072a7;
+}
+.third
+{  
+	color: white;
+    overflow: auto;
+    vertical-align: middle;
+    text-align: center;
+    border: solid;
+    margin-bottom: 37px;
+    border-color: white;
+    margin-top: 37px;
+    margin-left: 26px;
+    height: 437px;
+    width: 306px;
+}
+.inside
+{
+	font-size: 19px;
+    padding-left: 4px;
+    width: 294px;
+    height: 449px;
+    overflow: auto;
+    vertical-align: middle;
+    text-align: justify;
+}
+.sliders
+{
+	border: solid;
+    border-color: white;
+    float: left;
+    width: 306px;
+    height: 150px;
+    margin-top: 12px;
+    margin-left: 26px;
+    background: url(imagee/aone.jpg);
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	
+	
+}
+
+}	

@@ -1,0 +1,181 @@
+@charset "ISO-8859-1";
+body
+{
+	margin :0px;
+	background-color: #800040;
+	font-family: sans-serif;
+}
+header
+{
+	background-color:white;
+	margin-top: 10px;
+	height:100px;
+}
+h2
+{
+	color:white;
+}
+.eam
+{
+	color:white;
+}
+h1
+{	
+	color:maroon;
+	margin: 30px 193px 0px 129px;
+	float:left;
+}
+.line
+{
+	float:left;
+	background-color: black;
+	height: 1px;
+	width: 100%;
+}
+.team
+{
+	overflow: hidden;
+	text-align:center;
+	padding: 60px 1px 1px 1px;
+}
+.border
+{
+	display:block;
+	margin:auto;
+	width:160px;
+	height:3px;
+	background:#3498db;
+	margin-bottom: 40px;
+}
+.ps
+{
+	margin-bottom: 40px;
+}
+.ps a
+{
+	display: inline-block;
+	margin : 0px 30px;
+	width: 160px;
+	height:160px;
+	overflow:hidden;
+	border-radius: 50%;
+}
+.ps a img
+{
+	width:100%;
+	filter:grayscale(100%);
+	tansition:0.4s all;
+}
+.ps a:hover>img
+{
+	filter :none;
+}
+.section
+{
+	width:600px;
+	margin:auto;
+	font-size:20px;
+	color:white;
+	text-align: justify;
+	height:0;
+	overflow:hidden;
+}
+.section:target
+{
+	height:auto;
+	
+}
+.name
+{
+	display:block;
+	margin-bottom:30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:22px; 
+	
+}
+@media (max-width:360px)
+{
+	header
+{
+	background-color:white;
+	margin-top: 10px;
+	height:100px;
+}
+h2
+{
+	color:white;
+}
+.eam
+{
+	color:white;
+}
+h1
+{	
+	color:maroon;
+	margin: 30px 193px 0px 129px;
+	float:left;
+}
+.team
+{
+	overflow: hidden;
+    text-align: center;
+    padding: 23px
+}
+.border
+{
+	display:block;
+	margin:auto;
+	width:160px;
+	height:3px;
+	background:#3498db;
+	margin-bottom: 40px;
+}
+.ps
+{
+	margin-bottom: 40px;
+}
+.ps a
+{
+	display: inline-block;
+       margin: 18px 9px;
+    width: 74px;
+    height: 75px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.ps a img
+{
+	width:100%;
+	filter:grayscale(100%);
+	tansition:0.4s all;
+}
+.ps a:hover>img
+{
+	filter :none;
+}
+.section
+{
+	width: 281px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: scroll;
+}
+.section:target
+{
+	height:auto;
+	
+}
+.name
+{
+	display:block;
+	margin-bottom:30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size:22px; 
+	
+}
+}

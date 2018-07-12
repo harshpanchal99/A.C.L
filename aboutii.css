@@ -1,0 +1,213 @@
+@charset "ISO-8859-1";
+body
+{
+	margin :0px;
+	background-color: #1c77a8;
+	
+}
+header
+{
+	background-color:white;
+	margin-top: 10px;
+	height:100px;
+	font-family: sans-serif;
+}
+h1
+{	
+	color:#1c77a8;
+	margin: 30px 193px 0px 129px;
+	float:left;
+}
+.line
+{
+	float:left;
+	background-color: black;
+	height: 1px;
+	width: 100%;
+}
+.sliders
+{
+	border:solid;
+	border-color: white;
+	float:left;
+	width:640px;
+	height:450px;
+	margin-top: 37px;
+	margin-left: 30px;
+	background: url(imagee/btwo.jpg);
+	animation: slide 20s infinite;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	
+	
+}
+
+@keyframes slide
+{
+
+	25%
+	{
+	background: url(imagee/bone.jpg);
+	left:-100%;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	}
+	50%
+	{
+	background: url(imagee/bthree.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	left:-100%;
+	}
+	75%
+	{
+	background: url(imagee/afour.jpg);
+	left:-100%;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	}
+	100%
+	{
+	background: url(imagee/afive.jpg);
+	left:-100%;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	}
+}
+.third
+{  
+	
+	overflow:auto;
+	vertical-align: middle;
+	text-align: center;
+	border:solid;
+	margin-bottom:37px;
+	border-color: white;
+	margin-top: 37px;
+	margin-left: 707px;
+    height: 450px;
+    width: 580px;
+}
+.inside
+{
+	font-family:Century Gothic;
+	color:white;
+    padding-left: 33px;
+    width: 523px;
+    height: 449px;
+    overflow: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+.insidei
+{
+
+	color:black;
+	font-size:medium;
+	font-weight:bold;
+	font-family:Century Gothic;
+	margin-left: 156px;
+    height: 66px;
+    width: 194px;
+    margin-top: 30px;
+}
+.web
+{
+    margin-top: 0px;
+	
+	color:white;
+	font-size:medium;
+}
+.opac
+{
+	opacity:0.3;
+}
+
+.face
+{
+	text-decoration: none;
+	color: blue;
+}
+.insta
+{
+	text-decoration: none;
+	color: purple;
+}
+
+
+@media (max-width:360px)
+{
+	
+	header
+{
+	width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    height: 100px;
+    font-family: sans-serif;
+}
+h1
+{	
+	color: #1c77a8;
+    margin: 30px 12px 0px 106px;
+    float: left;
+}
+.line
+{
+	float:left;
+	background-color: black;
+	height: 1px;
+	width: 100%;
+}
+	.sliders
+{
+	border: solid;
+    border-color: white;
+    float: left;
+    width: 350px;
+    height: 296px;
+    margin-top: 10px;
+    margin-left: 2px;
+    background: url(imagee/aone.jpg);
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	}
+	.third
+{  
+	
+	overflow: auto;
+    vertical-align: middle;
+    text-align: center;
+    border: solid;
+        margin-bottom: 4px;
+    border-color: white;
+    margin-top: -1px;
+    margin-left: 2px;
+   height: 519px;
+    width: 349px;
+}
+.inside
+{
+	font-family: Century Gothic;
+    color: white;
+    padding-left: 2px;
+    width: 343px;
+    height: 495px;
+    overflow: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+.insidei
+{
+
+	font-weight: bold;
+    font-family: Century Gothic;
+    margin-left: 88px;
+    height: 66px;
+    width: 174px;
+    margin-top: 30px;
+}
+	
+
+}
